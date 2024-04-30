@@ -1,0 +1,36 @@
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo {
+    width: 150px;
+}
+.navbar .navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navbar .navbar-right button{
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid tomato;
+    border-radius: 40px;
+    color: gray;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+.navbar .navbar-right button:hover{
+    background-color: pink;
+    color: black;
+    scale: 1.1;
+}

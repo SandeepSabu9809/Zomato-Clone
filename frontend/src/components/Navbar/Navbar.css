@@ -34,3 +34,10 @@
     color: black;
     scale: 1.1;
 }
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid gray;
+}
+.navbar .navbar-menu li {
+    cursor: pointer;
+}

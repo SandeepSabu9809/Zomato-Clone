@@ -12,7 +12,7 @@ const ExploreMenu = () => {
             return(
                 <div key={index} className='explore-menu-list-item'>
                     <img src={item.menu_image} alt="" />
-                    <p>{item.menu_name}</p>
+                    <p>{item.menu_name}</p> 
                 </div>
             )
         })}
